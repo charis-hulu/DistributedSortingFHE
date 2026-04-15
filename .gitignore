@@ -1,0 +1,100 @@
+# =========================
+# Build / Compilation
+# =========================
+*.o
+*.out
+*.a
+*.so
+*.exe
+main
+create_test_case_metadata
+generate_test_case
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.env/
+.venv/
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data / Outputs
+# =========================
+output/
+results/
+logs/
+*.csv
+*.dat
+
+# =========================
+# HPC Job Outputs (PBS / Slurm)
+# =========================
+*.o[0-9]*
+*.e[0-9]*
+*.pbs.o*
+*.pbs.e*
+slurm-*.out
+
+# =========================
+# Crypto / OpenFHE artifacts
+# =========================
+*.ctxt
+*.keys
+*.pub
+*.priv
+
+# =========================
+# Scripts (as requested)
+# =========================
+*.sh
+
+# =========================
+# Secrets / configs
+# =========================
+.env
+*.json
+*.key
+*.txt
+
+# =========================
+# Unused
+# =========================
+main_1.cpp
+main_2.cpp
+main_3.cpp
